@@ -28,6 +28,9 @@ While I created this theme, I followed the Hugo theme best practice and tried to
 **Mind Map**
 ![screenshot](https://raw.githubusercontent.com/zhaohuabing/hugo-theme-cleanwhite/master/images/mindmap.png)
 
+**Bilibili Video**
+![screenshot](https://raw.githubusercontent.com/zhaohuabing/hugo-theme-cleanwhite/master/images/bilibili.png)
+
 ## Quick Start
 
 The simplest way is to start with the example site coming with this theme, then you can play around and add your own stuff.
@@ -61,7 +64,7 @@ If you start from scratch, there is a working Hugo site configured with the Clea
 For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo 
 
 ## Configuration
-First, let's take a look at the [config.toml](https://github.com/zhaohuabing/hugo-cleanwhite-theme/tree/master/exampleSite/config.toml). It will be useful to learn how to customize your site. Feel free to play around with the settings.
+First, let's take a look at the [config.toml](https://github.com/zhaohuabing/hugo-theme-cleanwhite/blob/master/exampleSite/config.toml). It will be useful to learn how to customize your site. Feel free to play around with the settings.
 
 ### Comments
 The optional comments system is powered by [Disqus](https://disqus.com). If you want to enable comments, create an account in Disqus and write down your shortname.
@@ -182,6 +185,25 @@ Mind Map is supported with shortcode 'mind', instering the following code snippe
         - Level 2
         - Level 2
 {{% /mind %}}
+```
+
+### Embedded Videos
+
+Use the below hugo shortcodes to embed videos into your posts.
+
+Bilibili (B站) 
+```
+{{< bilibili BV1kZ4y137gv >}}
+``` 
+
+Youtube
+```
+{{< youtube cllc1ZGlhsQ >}}
+``` 
+
+Vimeo
+```
+{{< vimeo 146022717 >}}
 ```
 
 ## Thanks
